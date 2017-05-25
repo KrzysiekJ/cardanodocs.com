@@ -11,7 +11,7 @@ visible: true
 
 <!-- @martoon TODO: perhaps this part better fits to protocols section -->
 
-HD wallets is a feature which allows users to derive keys in deterministic way from a common seed.
+HD (Hierarchical Deterministic) wallets is a feature which allows users to derive keys in deterministic way from a common seed.
 Basically, you generate an initial secret key `SK₀` out of a random seed. Then you can derive children `SK₀-₀`, `SK₀-₁`
 out of `SK₀`. From these children, you can derive `SK₀-₀-₀`, `SK₀-₀-₁`, `SK₀-₁-₀` and so on (derivations for a tree of arbitrary depth).
 
